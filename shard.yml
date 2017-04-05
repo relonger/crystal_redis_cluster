@@ -1,0 +1,16 @@
+name: redis_cluster
+version: 0.2.8
+
+authors:
+  - wangzc <zhchsf@gmail.com>, Ported to Crystal by Alexander Usikov <relonger@gmail.com>
+
+crystal: 0.21.1
+
+sources:
+  src/redis_cluster
+
+dependencies:
+  redis:
+    github: stefanwille/crystal-redis
+
+license: MIT
